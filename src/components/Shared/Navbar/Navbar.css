@@ -1,4 +1,9 @@
-nav a .active{
-    text-decoration: dashed;
+nav li{
+    list-style: none;
+}
+
+nav a.active{
+    /* text-decoration: dashed; */
     color: red;
+    border-bottom: 2px solid red;
 }

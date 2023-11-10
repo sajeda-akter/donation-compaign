@@ -1,13 +1,8 @@
 import { useEffect, useState } from "react";
 
 
-const Banner = () => {
-    const [donationSearch,setDonationSearch]=useState([])
-    useEffect(()=>{
-        fetch('donations.json')
-        .then(res=>res.json())
-        .then(data=>setDonationSearch(data))
-    })
+const Banner = ({donationSearch,setDonationSearch}) => {
+  
 
     const handleToSearch=(e)=>{
      
@@ -16,11 +11,13 @@ const Banner = () => {
         for(const donation of donationSearch){
 
             const findCategory=donation.category.includes(fieldValue)
-   
+            if(findCategory===true){
+                setDonationSearch(findCategory)
+            }
     }
 
     }
-    // console.log(donationSearch.category)
+
     return (
         <div className="hero min-h-screen mt-2" style={{backgroundImage: 'url(https://media.istockphoto.com/id/1498170916/photo/a-couple-is-taking-a-bag-of-food-at-the-food-and-clothes-bank.webp?b=1&s=170667a&w=0&k=20&c=9P0Mwd1h7-lLJEROWQS12zNc_HSAxCxK_k0euLl1_yE=)'}}>
         <div className="hero-overlay bg-opacity-60"></div>
