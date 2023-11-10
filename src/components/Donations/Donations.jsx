@@ -1,14 +1,23 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import Donation from "./Donation/Donation";
 
 const Donations = () => {
+    const [donations,setDonations]=useState([])
     useEffect(()=>{
         fetch('donations.json')
         .then(res=>res.json())
-        .then(data=>console.log(data))
+        .then(data=>setDonations(data))
     },[])
     return (
-        <div>
-            
+        <div className="">
+                    <div className="w-11/12 mx-auto grid grid-cols-4 justify-center items-center gap-y-6 gap-2 mt-24">
+            {
+                donations.map(donation=>
+                    <Donation key={donation.id} donation={donation}></Donation>
+                    
+                    )
+            }
+        </div>
         </div>
     );
 };
