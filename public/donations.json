@@ -1,0 +1,150 @@
+[
+    {
+      "id": 1,
+      "img": "https://example.com/donation1.jpg",
+      "category": "Medical",
+      "description": "Support Medical Research for a Cure",
+      "price": 50,
+      "category_backgroundColor": "#e74c3c",
+      "text_color": "#ffffff",
+      "button_backgroundColor": "#3498db",
+      "card_backgroundColor": "#ecf0f1",
+      "title": "Medical Research Fund"
+    },
+    {
+      "id": 2,
+      "img": "https://example.com/donation2.jpg",
+      "category": "Education",
+      "description": "Provide Scholarships for Underprivileged Students",
+      "price": 25,
+      "category_backgroundColor": "#f39c12",
+      "text_color": "#ffffff",
+      "button_backgroundColor": "#2ecc71",
+      "card_backgroundColor": "#ecf0f1",
+      "title": "Education Scholarships"
+    },
+    {
+      "id": 3,
+      "img": "https://example.com/donation3.jpg",
+      "category": "Environmental",
+      "description": "Plant Trees for a Greener Tomorrow",
+      "price": 20,
+      "category_backgroundColor": "#27ae60",
+      "text_color": "#ffffff",
+      "button_backgroundColor": "#e74c3c",
+      "card_backgroundColor": "#ecf0f1",
+      "title": "Green Earth Initiative"
+    },
+    
+    {
+        "id": 1,
+        "img": "https://example.com/donation1.jpg",
+        "category": "Medical",
+        "description": "Support Medical Research for a Cure",
+        "price": 50,
+        "category_backgroundColor": "#e74c3c",
+        "text_color": "#ffffff",
+        "button_backgroundColor": "#3498db",
+        "card_backgroundColor": "#ecf0f1",
+        "title": "Medical Research Fund"
+      },
+      {
+        "id": 2,
+        "img": "https://example.com/donation2.jpg",
+        "category": "Education",
+        "description": "Provide Scholarships for Underprivileged Students",
+        "price": 25,
+        "category_backgroundColor": "#f39c12",
+        "text_color": "#ffffff",
+        "button_backgroundColor": "#2ecc71",
+        "card_backgroundColor": "#ecf0f1",
+        "title": "Education Scholarships"
+      },
+      {
+        "id": 3,
+        "img": "https://example.com/donation3.jpg",
+        "category": "Environmental",
+        "description": "Plant Trees for a Greener Tomorrow",
+        "price": 20,
+        "category_backgroundColor": "#27ae60",
+        "text_color": "#ffffff",
+        "button_backgroundColor": "#e74c3c",
+        "card_backgroundColor": "#ecf0f1",
+        "title": "Green Earth Initiative"
+      },
+      
+    {
+        "id": 1,
+        "img": "https://example.com/donation1.jpg",
+        "category": "Medical",
+        "description": "Support Medical Research for a Cure",
+        "price": 50,
+        "category_backgroundColor": "#e74c3c",
+        "text_color": "#ffffff",
+        "button_backgroundColor": "#3498db",
+        "card_backgroundColor": "#ecf0f1",
+        "title": "Medical Research Fund"
+      },
+      {
+        "id": 2,
+        "img": "https://example.com/donation2.jpg",
+        "category": "Education",
+        "description": "Provide Scholarships for Underprivileged Students",
+        "price": 25,
+        "category_backgroundColor": "#f39c12",
+        "text_color": "#ffffff",
+        "button_backgroundColor": "#2ecc71",
+        "card_backgroundColor": "#ecf0f1",
+        "title": "Education Scholarships"
+      },
+      {
+        "id": 3,
+        "img": "https://example.com/donation3.jpg",
+        "category": "Environmental",
+        "description": "Plant Trees for a Greener Tomorrow",
+        "price": 20,
+        "category_backgroundColor": "#27ae60",
+        "text_color": "#ffffff",
+        "button_backgroundColor": "#e74c3c",
+        "card_backgroundColor": "#ecf0f1",
+        "title": "Green Earth Initiative"
+      },
+      
+    {
+        "id": 1,
+        "img": "https://example.com/donation1.jpg",
+        "category": "Medical",
+        "description": "Support Medical Research for a Cure",
+        "price": 50,
+        "category_backgroundColor": "#e74c3c",
+        "text_color": "#ffffff",
+        "button_backgroundColor": "#3498db",
+        "card_backgroundColor": "#ecf0f1",
+        "title": "Medical Research Fund"
+      },
+      {
+        "id": 2,
+        "img": "https://example.com/donation2.jpg",
+        "category": "Education",
+        "description": "Provide Scholarships for Underprivileged Students",
+        "price": 25,
+        "category_backgroundColor": "#f39c12",
+        "text_color": "#ffffff",
+        "button_backgroundColor": "#2ecc71",
+        "card_backgroundColor": "#ecf0f1",
+        "title": "Education Scholarships"
+      },
+      {
+        "id": 3,
+        "img": "https://example.com/donation3.jpg",
+        "category": "Environmental",
+        "description": "Plant Trees for a Greener Tomorrow",
+        "price": 20,
+        "category_backgroundColor": "#27ae60",
+        "text_color": "#ffffff",
+        "button_backgroundColor": "#e74c3c",
+        "card_backgroundColor": "#ecf0f1",
+        "title": "Green Earth Initiative"
+      }
+  ]
+  

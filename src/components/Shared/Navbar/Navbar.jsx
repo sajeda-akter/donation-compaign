@@ -1,14 +1,15 @@
-import { Link } from "react-router-dom";
-
+import {  NavLink } from "react-router-dom";
+import './Navbar.css'
 const Navbar = () => {
   const menuItems=<>
-  <li><Link to='/'>Home</Link></li>
-  <li><Link to='/blog'>Blog</Link></li>
-  <li><Link to='/login'>Login</Link></li>
+  <li><NavLink to='/'>Home</NavLink></li>
+  <li><NavLink to='/donation'>Donation</NavLink></li>
+  <li><NavLink to='/statistics'>Statistics</NavLink></li>
+
 
   </>
     return (
-        <div className="navbar bg-base-100">
+        <nav className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -26,7 +27,7 @@ const Navbar = () => {
           </ul>
         </div>
         
-      </div>
+      </nav>
     );
 };
 
