@@ -5,10 +5,12 @@ import Donations from "../Donations/Donations";
 import DetailsPage from "../Donations/Donation/DetailsPage/DetailsPage";
 import AllDonationShow from "../AllDonation/AllDonationShow";
 import Statistics from "../Statistics/Statistics";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 export const router=createBrowserRouter([
     {
         path:'/',
+        errorElement:<ErrorPage/>,
         element:<Main/>,
         children:[
             {

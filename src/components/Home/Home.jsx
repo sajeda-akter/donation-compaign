@@ -1,10 +1,11 @@
 import Donations from "../Donations/Donations";
+import Banner from "./Banner/Banner";
 
 const Home = () => {
     return (
         <div>
-           <p className="text-3xl">This is home</p> 
-        
+         
+        <Banner/>
         <Donations/>
         </div>
     );
