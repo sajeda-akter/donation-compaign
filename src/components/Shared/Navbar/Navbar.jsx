@@ -3,7 +3,7 @@ import './Navbar.css'
 const Navbar = () => {
   const menuItems=<>
   <li><NavLink to='/'>Home</NavLink></li>
-  <li><NavLink to='/donation'>Donation</NavLink></li>
+  <li><NavLink to='/showDonationDetails'>Donation</NavLink></li>
   <li><NavLink to='/statistics'>Statistics</NavLink></li>
 
 

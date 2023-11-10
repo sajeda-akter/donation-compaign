@@ -3,6 +3,8 @@ import Main from "../Layout/Main";
 import Home from "../Home/Home";
 import Donations from "../Donations/Donations";
 import DetailsPage from "../Donations/Donation/DetailsPage/DetailsPage";
+import AllDonationShow from "../AllDonation/AllDonationShow";
+import Statistics from "../Statistics/Statistics";
 
 export const router=createBrowserRouter([
     {
@@ -21,6 +23,15 @@ export const router=createBrowserRouter([
                 path:'/donation/:id',
                 loader:()=>fetch('../../../public/donations.json'),
                 element:<DetailsPage/>
+            },
+            {
+                path:'/showDonationDetails',
+                loader:()=>fetch('../../../public/donations.json'),
+                element:<AllDonationShow/>
+            },
+            {
+                path:'/statistics',
+                element:<Statistics/>
             }
         ]
     }
