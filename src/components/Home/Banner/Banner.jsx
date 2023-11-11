@@ -1,20 +1,28 @@
 import { useEffect, useState } from "react";
 
 
-const Banner = ({donationSearch,setDonationSearch}) => {
+const Banner = () => {
+    const [donations,setDonations]=useState([])
   
 
     const handleToSearch=(e)=>{
      
         e.preventDefault()
         const fieldValue=e.target.searchCategory.value
-        for(const donation of donationSearch){
 
-            const findCategory=donation.category.includes(fieldValue)
-            if(findCategory===true){
-                setDonationSearch(findCategory)
-            }
-    }
+    //     const searchText=(input)=>{
+    //         fetch(`donations.json/category?search=${input}`)
+    //         .then(res=>res.json())
+    //         .then(data=>console.log(data))
+    //     }
+    //     searchText(fieldValue)
+    // //     for(const donation of donationSearch){
+
+    // //         const findCategory=donation.category.includes(fieldValue)
+    // //         if(findCategory===true){
+    // //             setDonationSearch(findCategory)
+    // //         }
+    // // }
 
     }
 

@@ -33,6 +33,7 @@ export const router=createBrowserRouter([
             },
             {
                 path:'/statistics',
+                loader:()=>fetch('../../../public/donations.json'),
                 element:<Statistics/>
             }
         ]
