@@ -1,22 +1,23 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
-const Donation = ({donation}) => {
-    const {id,img,title,category,text_color,card_backgroundColor}=donation
-    // console.log(donation.text_color)
+const Donation = ({ donation }) => {
+  const { id, img, title, category, text_color,bg,card_backgroundColor } = donation;
 
-  
-    return (
-       <Link to={`/donation/${id}`}>
-        <div  className="card w-80 bg-base-100 shadow-xl">
-        <figure><img src={img} alt={category} className="w-80 h-48" /></figure>
+  return (
+    <Link to={`/donation/${id}`}>
+      <div className={`card w-80 shadow-xl`} style={{background: card_backgroundColor}}>
+        <figure>
+          <img src={img} alt={category} className="w-80 h-48" />
+        </figure>
         <div className="card-body">
-          <h2 className="card-title">{category}</h2>
-          <p className={`text-[${card_backgroundColor}]`}>{title}</p>
-<p className="text-[#]">text</p>   
+          <p className="card-title text-[17px]  w-32 p-2 rounded-md text-center" style={{color:text_color,background:bg}}>{category}</p>
+          <p style={{ color:text_color }} className="text-xl font-bold">{title}</p>
+         
         </div>
       </div>
-       </Link>
-    );
+    </Link>
+  );
 };
 
 export default Donation;

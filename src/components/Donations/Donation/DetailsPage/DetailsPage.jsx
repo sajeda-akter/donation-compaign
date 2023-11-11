@@ -25,7 +25,8 @@ const DetailsPage = () => {
         <div className=" bg-black h-24 rounded  opacity-50 w-10/12 mx-auto -mt-24  "></div>
         <button
           onClick={handleDonate}
-          className="text-xl absolute -bottom-40 left-52  text-white bg-red-700 p-2 rounded-md"
+          className="text-xl absolute -bottom-40 left-52  text-white  p-2 rounded-md"
+          style={{background:donation.text_color}}
         >
           Donate ${donation.price}
         </button>

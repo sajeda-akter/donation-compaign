@@ -33,7 +33,7 @@ const Banner = () => {
         <div className="w-3/4 ml-80">
             <h1 className="text-white font-bold text-5xl ">I Grow By Helping People In Need</h1>
         </div>
-        <form className="mt-32 flex  rounded" onSubmit={handleToSearch}>
+        <form className="mt-52 flex  rounded" onSubmit={handleToSearch}>
             <input type="text" className="outline-0 p-2 w-72 rounded-l" name="searchCategory" placeholder="Search here..." required />
             <button  className="text-white bg-red-600 p-3 rounded-r">Search</button>
         </form>
